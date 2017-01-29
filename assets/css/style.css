@@ -645,9 +645,10 @@ input, textarea, label {
 	}
 
 	.port h3 {
-		left: 20px;
+		left: 16px;
 		font-size: 30px;
 		padding: 15px;
+		width: 100%;
 	}
 
 	.main-hr {
