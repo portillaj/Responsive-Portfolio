@@ -30,7 +30,7 @@ h1, h2, h4 {
 
 .links {
 	float: right;
-	margin-right: 25%;
+	margin-right: 20%;
 }
 
 .links li {
@@ -165,7 +165,8 @@ h1, h2, h4 {
 }
 
 .port img {
-  width: 100%;
+  display: block;
+  max-width: 100%;
   height: 230px;
   border: 0 none;
   opacity: .8;
@@ -205,6 +206,10 @@ input, textarea {
 
 input {
 	height: 25px;
+}
+
+input:focus, textarea:focus {
+	background-color: #377F7C;
 }
 
 textarea {
@@ -347,8 +352,8 @@ label {
 
   .port h3 {
   padding: 5px;
-  left: 11px;
-  width: 86%;
+  left: 12px;
+  width: 86.5%;
   text-align: center;
 }
 
@@ -515,7 +520,7 @@ input, textarea, label {
 	}
 	.port img {
 		width: 100%;
-		height: auto;
+	
 	}
 
 	.port h3 {
@@ -567,7 +572,7 @@ input, textarea, label {
 	}
 
 	.links a:hover {
-		padding: 17px;
+		padding: none;
 	}
 
 	.divider {
@@ -640,15 +645,18 @@ input, textarea, label {
 		margin-left: 2%;
 	}
 	.port {
-		width: 98%;
+		width: 95%;
 		margin-left: -1%;
+		overflow: hidden;
+		z-index: 1;
 	}
 
 	.port h3 {
-		left: 16px;
+		left: 19px;
 		font-size: 30px;
 		padding: 15px;
-		width: 100%;
+		width: 95%;
+		text-align: center;
 	}
 
 	.main-hr {
