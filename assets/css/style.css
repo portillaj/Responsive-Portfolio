@@ -567,10 +567,6 @@ input, textarea, label {
 		margin-left: 7%;
 	}
 
-	.links a:hover {
-		padding: none;
-	}
-
 	.divider {
 		right: -30px;
 		top: -25px;
@@ -637,30 +633,19 @@ input, textarea, label {
 	}
 
 /**********640PX PORTFOLIO MEDIA QUERY***********/
-	.portfolio-section {
-		margin-left: 2%;
-	}
 	.port {
 		width: 95%;
-		margin-left: -1%;
-		overflow: hidden;
-		z-index: 1;
+		margin-left: 0;
 	}
 
 	.port h3 {
-		left: 19px;
+		left: 13px;
 		font-size: 30px;
-		padding: 15px;
 		width: 95%;
-		text-align: center;
 	}
 
 	.main-hr {
 		width: 94%;
-		margin-left: 3%;
-	}
-
-	.about-header {
 		margin-left: 3%;
 	}
 
