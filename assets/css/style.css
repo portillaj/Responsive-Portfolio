@@ -1,3 +1,8 @@
+html {
+	position: relative;
+	min-height: 100%;
+}
+
 body {
 	background-image: url('../images/body-background.png');
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
@@ -73,7 +78,7 @@ h1, h2, h4 {
 	border: 2px solid #ddd;
 	max-width: 650px;
 	background-color: #fff;
-	margin: 40px 30px 90px 5%;
+	margin: 40px 30px 15% 5%;
 }
 
 .about-header, .bio-img {
@@ -148,8 +153,7 @@ h1, h2, h4 {
 
 /**********PORTFOLIO SECTION***********/
 .portfolio-section {
-	margin-left: 5%;
-
+	height: 850px;
 }
 .port {
   position: relative;
@@ -247,7 +251,10 @@ label {
 	text-align: center;
 	color: #fff;
 	height: 90px;
-	border-top: 7px solid #4aaaa5 ;
+	border-top: 7px solid #4aaaa5;
+	position: absolute;
+	left: 0;
+	bottom: 0;
 }
 
 .site-footer h4 {
@@ -403,9 +410,9 @@ input, textarea, label {
 	}
 
 	.divider {
-	right: -10px;
-	top: -23px;
-	color: #ddd	;
+		right: -10px;
+		top: -23px;
+		color: #ddd	;
 	}
 
 	.about-header {
@@ -413,10 +420,10 @@ input, textarea, label {
 		margin-top: 40px;
 	}
 	.main-section {
+		clear:both;
 		max-width: 95%;
 		height: 100%;
 		margin-left: 3%;
-		word-wrap: break-word;
 	}
 	
 	.main-section p {
@@ -443,11 +450,12 @@ input, textarea, label {
 	}
 
 	.connect-section {
+		min-width: 92%;
 		height: 160px;
 		margin-top: -60px;
-		margin-bottom: 40px;
+		margin-bottom: 20%;
 		text-align: left;
-		max-width: 92%;
+		margin-left: 3%;
 	}
 
 	.connect-section h2 {
@@ -474,7 +482,7 @@ input, textarea, label {
 /**********768PX CONTACT MEDIA QUERY***********/
 .form-section {
 	height: 100%;
-	width: 95%;
+	width: 92%;
 }
 
 input, textarea, label {
@@ -487,11 +495,6 @@ input, textarea, label {
 }
 
 .about-header {
-	margin-left: 3%;
-}
-
-.connect-section {
-	width: 100%;
 	margin-left: 3%;
 }
 
@@ -610,9 +613,11 @@ input, textarea, label {
 	}
 
 	.connect-section {
-		width: 95%;
+		min-width: 90%;
 		height: 160px;
-		margin-left: 8px;
+		margin-left: 4%;
+		margin-top: 0;
+		margin-bottom: 40%;
 	}
 
 	.connect-section h2 {
@@ -632,6 +637,20 @@ input, textarea, label {
 		margin-left: 2%;
 	}
 
+	.form-section {
+		width: 90%;
+		margin-left: 4%;
+	}
+
+	input, textarea {
+		margin-left: 6%;
+		width: 88%;
+	}
+
+	label, .submit-button {
+		margin-left: 6%;
+	}
+
 /**********640PX PORTFOLIO MEDIA QUERY***********/
 	.port {
 		width: 95%;
@@ -639,7 +658,7 @@ input, textarea, label {
 	}
 
 	.port h3 {
-		left: 13px;
+		left: 14px;
 		font-size: 30px;
 		width: 95%;
 	}
@@ -647,10 +666,5 @@ input, textarea, label {
 	.main-hr {
 		width: 94%;
 		margin-left: 3%;
-	}
-
-	.connect-section {
-		max-width: 95%;
-		margin-left: 2%;
 	}
 }
