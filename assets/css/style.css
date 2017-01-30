@@ -475,11 +475,10 @@ input, textarea, label {
 .form-section {
 	height: 100%;
 	width: 95%;
-	margin-left: 2%;
 }
 
 input, textarea, label {
-	width: 94%;
+	width: 93%;
 	margin-left: 3%;
 }
 
@@ -488,7 +487,7 @@ input, textarea, label {
 }
 
 .about-header {
-	margin-left: 4%;
+	margin-left: 3%;
 }
 
 .connect-section {
@@ -515,9 +514,6 @@ input, textarea, label {
 		width: 47%;
 	}
 
-	.portfolio-section {
-		margin-left: 4%;
-	}
 	.port img {
 		width: 100%;
 	
@@ -534,7 +530,7 @@ input, textarea, label {
 	}
 
 	.main-hr {
-		width: 94%;
+		width: 93%;
 		margin-left: 3%;
 	}
 
