@@ -183,7 +183,7 @@ h1, h2, h4 {
   left: 25px;
   margin-bottom: 0;
   padding: 15px;
-  width: 83%;
+  max-width: 82.5%;
   color: #fff;
   text-align: center;
   line-height: 30px;
@@ -658,9 +658,10 @@ input, textarea, label {
 	}
 
 	.port h3 {
-		left: 14px;
+		left: 13px;
 		font-size: 30px;
-		width: 95%;
+		min-width: 95%;
+		height: auto;
 	}
 
 	.main-hr {
